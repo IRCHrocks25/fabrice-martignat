@@ -136,6 +136,7 @@ export function LyvraServices() {
       {/* ── Section header ── */}
       <div
         ref={header.ref}
+        className="lyvra-svc-header-grid"
         style={{
           ...header.style,
           maxWidth: "1200px",
@@ -211,6 +212,7 @@ export function LyvraServices() {
 
         {/* Card */}
         <div
+          className="lyvra-svc-carousel-card"
           style={{
             display: "grid",
             gridTemplateColumns: "1fr 1fr",
@@ -350,6 +352,7 @@ export function LyvraServices() {
       {/* ── Outcomes + Deliverables ── */}
       <div
         ref={belowFold.ref}
+        className="lyvra-svc-below-grid"
         style={{
           ...belowFold.style,
           maxWidth: "1200px",

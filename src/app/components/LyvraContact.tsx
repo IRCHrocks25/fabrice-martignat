@@ -16,6 +16,7 @@ export function LyvraContact() {
         src={bgImg}
         alt=""
         aria-hidden="true"
+        className="lyvra-contact-bg"
         style={{
           position: "absolute",
           inset: 0,
@@ -41,7 +42,7 @@ export function LyvraContact() {
         }}
       >
         <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "clamp(2rem,3.5vw,3.2rem)", lineHeight: 1.1, letterSpacing: "-.025em", margin: "0 0 1.5rem", color: "var(--black)" }}>
-          <span style={{ display: "block", whiteSpace: "nowrap" }}>The AI Decision Gate is open.</span>
+          <span className="lyvra-contact-hl-line" style={{ display: "block", whiteSpace: "nowrap" }}>The AI Decision Gate is open.</span>
           <span style={{ color: "var(--red)" }}>The first step is a conversation.</span>
         </h2>
 

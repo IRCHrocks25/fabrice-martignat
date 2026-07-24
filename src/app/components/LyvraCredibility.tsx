@@ -30,6 +30,7 @@ export function LyvraCredibility() {
   return (
     <section id="cred" style={{ background: "var(--black)", overflow: "hidden" }}>
       <div
+        className="lyvra-cred-split"
         style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",

@@ -21,6 +21,7 @@ export function LyvraFooter() {
 
       {/* ── Main footer body ── */}
       <div
+        className="lyvra-footer-grid"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
@@ -128,6 +129,7 @@ export function LyvraFooter() {
 
       {/* ── Bottom bar ── */}
       <div
+        className="lyvra-footer-bottom"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",

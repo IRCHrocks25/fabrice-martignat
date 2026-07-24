@@ -117,6 +117,7 @@ export function LyvraOutcomes() {
   return (
     <section style={{ background: "var(--white)" }} id="outcomes">
       <div
+        className="lyvra-outcomes-grid"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
@@ -129,7 +130,7 @@ export function LyvraOutcomes() {
       >
 
         {/* Left column — heading + quote */}
-        <div ref={left.ref} style={{ ...left.style, position: "sticky", top: "6rem" }}>
+        <div ref={left.ref} className="lyvra-outcomes-sticky" style={{ ...left.style, position: "sticky", top: "6rem" }}>
           <p style={{ fontSize: "1rem", fontWeight: 700, letterSpacing: ".14em", textTransform: "uppercase", color: "var(--red)", margin: "0 0 1.25rem" }}>
             Defensible Leadership Outcomes
           </p>

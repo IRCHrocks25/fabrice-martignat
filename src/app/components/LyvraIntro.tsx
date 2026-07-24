@@ -41,6 +41,7 @@ export function LyvraIntro() {
       }}
     >
       <div
+        className="lyvra-intro-grid"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",

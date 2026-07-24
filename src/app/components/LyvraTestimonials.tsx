@@ -90,7 +90,7 @@ export function LyvraTestimonials() {
         </div>
 
         {/* Testimonial cards */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2rem", width: "100%" }}>
+        <div className="lyvra-testimonial-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2rem", width: "100%" }}>
           {testimonials.map((t, i) => (
             <div
               ref={revealCards[i].ref}

@@ -502,6 +502,10 @@ body.hov #lyvra-cd { transform: scale(1.3); }
   .lyvra-nav .lyvra-nav-links { display: none; }
   .lyvra-nav-cta--desktop { display: none; }
   .lyvra-nav-burger { display: flex; }
+  .lyvra-nav { padding: 1.3rem 1.25rem; }
+  .lyvra-nav-logo { flex: 0 0 75%; max-width: 75%; }
+  .lyvra-nav-burger { flex: 0 0 25%; max-width: 25%; justify-content: flex-end; }
+  .lyvra-hero-hl { padding: 0 .5rem; line-height: 1.2; }
   .lyvra-about-cta-strip { flex-direction: column; align-items: flex-start; }
   .lyvra-fc-inner { flex-direction: column; }
   .lyvra-fc-photo, .lyvra-fc-photo-box { width: 100%; }
@@ -544,4 +548,40 @@ body.hov #lyvra-cd { transform: scale(1.3); }
   .lyvra-results-grid { grid-template-columns: 1fr; }
   .lyvra-service-grid { grid-template-columns: 1fr; }
   .lyvra-why-grid { grid-template-columns: 1fr; }
+}
+
+/* RESPONSIVE — inline-style section grids (Footer, Credibility, Intro,
+   Pressure, Testimonials, Outcomes, Services carousel). These sections
+   set grid-template-columns via inline styles, so overrides need !important
+   to win over inline style specificity. */
+@media (max-width: 900px) {
+  .lyvra-footer-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; padding: 3.5rem 1.5rem 2.5rem !important; }
+  .lyvra-footer-bottom { padding: 1.5rem !important; flex-direction: column; align-items: flex-start !important; }
+
+  .lyvra-cred-split { grid-template-columns: 1fr !important; min-height: auto !important; }
+  .lyvra-cred-split > div:last-child { min-height: 280px; }
+
+  .lyvra-intro-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; padding: 3rem 1.5rem !important; }
+
+  .lyvra-pressure-cols { grid-template-columns: 1fr !important; padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
+  .lyvra-pressure-cols > div { border-right: none !important; padding: 1.5rem 0 !important; border-bottom: 1px solid var(--g200, #e5e5e5); }
+  .lyvra-pressure-cols > div:last-child { border-bottom: none; }
+  .lyvra-pressure-cards { grid-template-columns: 1fr !important; padding: 2.5rem 1.5rem !important; }
+  .lyvra-pressure-cards > div { border-right: none !important; padding: 1.5rem 0 !important; border-bottom: 1px solid var(--g200, #e5e5e5); }
+  .lyvra-pressure-cards > div:last-child { border-bottom: none; }
+  .lyvra-pressure-tension { grid-template-columns: 1fr !important; padding: 2.5rem 1.5rem !important; }
+
+  .lyvra-testimonial-grid { grid-template-columns: 1fr !important; }
+
+  .lyvra-outcomes-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; padding: 3.5rem 1.5rem !important; }
+  .lyvra-outcomes-sticky { position: static !important; top: auto !important; }
+
+  .lyvra-svc-header-grid { grid-template-columns: 1fr !important; align-items: flex-start !important; gap: 1.5rem !important; padding: 3.5rem 1.5rem 2rem !important; }
+  .lyvra-svc-header-grid h2 { white-space: normal !important; }
+  .lyvra-svc-carousel-card { grid-template-columns: 1fr !important; min-height: auto !important; }
+  .lyvra-svc-carousel-card > div:first-child { min-height: 220px !important; }
+  .lyvra-svc-below-grid { grid-template-columns: 1fr !important; gap: 2rem !important; padding: 3rem 1.5rem 4rem !important; }
+
+  .lyvra-contact-hl-line { white-space: normal !important; }
+  .lyvra-contact-bg { opacity: .18 !important; }
 }

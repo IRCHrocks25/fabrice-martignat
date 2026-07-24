@@ -216,6 +216,7 @@ export function LyvraPressure() {
       {/* ── Intro text block ── */}
       <div
         ref={intro.ref}
+        className="lyvra-pressure-cols"
         style={{
           ...intro.style,
           maxWidth: "1200px",
@@ -261,6 +262,7 @@ export function LyvraPressure() {
       {/* ── Three pressure cards ── */}
       <div style={{ borderBottom: "1px solid var(--g200, #e5e5e5)" }}>
         <div
+          className="lyvra-pressure-cards"
           style={{
             maxWidth: "1200px",
             margin: "0 auto",
@@ -299,6 +301,7 @@ export function LyvraPressure() {
       {/* ── Tension panel — icon boxes ── */}
       <div
         ref={tension.ref}
+        className="lyvra-pressure-tension"
         style={{
           ...tension.style,
           maxWidth: "1200px",
