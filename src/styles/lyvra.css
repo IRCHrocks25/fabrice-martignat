@@ -505,7 +505,9 @@ body.hov #lyvra-cd { transform: scale(1.3); }
   .lyvra-nav { padding: 1.3rem 1.25rem; }
   .lyvra-nav-logo { flex: 0 0 75%; max-width: 75%; }
   .lyvra-nav-burger { flex: 0 0 25%; max-width: 25%; justify-content: flex-end; }
+  .lyvra-nav:not(.scrolled) { background: linear-gradient(rgba(13,13,13,.45), rgba(13,13,13,0)); }
   .lyvra-hero-hl { padding: 0 .5rem; line-height: 1.2; }
+  .lyvra-hero-content { padding-top: calc(2.5rem + 40px) !important; }
   .lyvra-about-cta-strip { flex-direction: column; align-items: flex-start; }
   .lyvra-fc-inner { flex-direction: column; }
   .lyvra-fc-photo, .lyvra-fc-photo-box { width: 100%; }
