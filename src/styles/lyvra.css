@@ -32,7 +32,7 @@ body.hov #lyvra-cd { transform: scale(1.3); }
 .lyvra-nav { position: fixed; top: 0; left: 0; width: 100%; z-index: 200; padding: .9rem var(--pad); display: flex; align-items: center; justify-content: space-between; background: transparent; backdrop-filter: none; border-bottom: none; transform: translateY(-100%); animation: navIn .7s var(--ease) .15s forwards; transition: background .35s ease, border-color .35s ease, backdrop-filter .35s ease; }
 .lyvra-nav.scrolled { background: rgba(245,243,239,.96); backdrop-filter: blur(14px); border-bottom: var(--rule); }
 @keyframes navIn { to { transform: translateY(0); } }
-.lyvra-nav-logo { font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 1.05rem; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; color: var(--white); transition: color .35s ease; }
+.lyvra-nav-logo { display: flex; align-items: center; font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 1.05rem; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; color: var(--white); transition: color .35s ease; }
 .lyvra-nav.scrolled .lyvra-nav-logo { color: var(--black); }
 .lyvra-nav-logo b { color: var(--red); }
 .lyvra-nav-links { display: flex; gap: 2rem; list-style: none; }
@@ -526,6 +526,7 @@ body.hov #lyvra-cd { transform: scale(1.3); }
     padding-top: 1rem;
   }
   .lyvra-hero-ctas { flex-direction: column; align-items: center; gap: 1rem; }
+  .lyvra-hero-ctas .lyvra-btn-primary { font-size: .8rem; letter-spacing: .05em; padding: .8rem 1.2rem; white-space: nowrap; }
 }
 
 @media (max-width: 560px) {
