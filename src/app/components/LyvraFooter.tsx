@@ -95,16 +95,17 @@ export function LyvraFooter() {
               display: "inline-flex",
               alignItems: "center",
               gap: ".5rem",
-              fontSize: "1rem",
+              fontSize: ".85rem",
               fontWeight: 700,
-              letterSpacing: ".08em",
+              letterSpacing: ".05em",
               textTransform: "uppercase",
               textDecoration: "none",
               color: "var(--white)",
-              padding: ".8rem 1.5rem",
+              padding: ".8rem 1.2rem",
               border: "1px solid rgba(255,255,255,0.25)",
               transition: "border-color .2s, background .2s",
               marginBottom: "1rem",
+              whiteSpace: "nowrap",
             }}
             onMouseEnter={e => { e.currentTarget.style.borderColor = "var(--red)"; e.currentTarget.style.background = "var(--red)"; }}
             onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.25)"; e.currentTarget.style.background = "transparent"; }}

@@ -42,7 +42,7 @@ body.hov #lyvra-cd { transform: scale(1.3); }
 .lyvra-nav-links a:hover { color: var(--white); }
 .lyvra-nav.scrolled .lyvra-nav-links a:hover { color: var(--black); }
 .lyvra-nav-links a:hover::after { width: 100%; }
-.lyvra-nav-cta { font-size: 1rem; font-weight: 700; letter-spacing: .08em; padding: .5rem 1.2rem; background: transparent; color: var(--white); text-decoration: none; border: 1.5px solid rgba(255,255,255,.6); transition: background .25s, border-color .25s, color .35s ease; }
+.lyvra-nav-cta { font-size: 1rem; font-weight: 700; letter-spacing: .08em; padding: .5rem 1.2rem; background: transparent; color: var(--white); text-decoration: none; border: 1.5px solid rgba(255,255,255,.6); transition: background .25s, border-color .25s, color .35s ease; white-space: nowrap; flex-shrink: 0; }
 .lyvra-nav.scrolled .lyvra-nav-cta { background: var(--black); color: var(--white); border-color: var(--black); }
 .lyvra-nav-cta:hover { background: var(--red); border-color: var(--red); color: var(--white); }
 
@@ -487,6 +487,12 @@ body.hov #lyvra-cd { transform: scale(1.3); }
 }
 
 /* RESPONSIVE */
+@media (min-width: 961px) and (max-width: 1150px) {
+  .lyvra-nav-links { gap: 1.1rem; }
+  .lyvra-nav-links a { font-size: .9rem; }
+  .lyvra-nav-cta { font-size: .85rem; padding: .5rem .9rem; }
+}
+
 @media (max-width: 960px) {
   .lyvra-cred-inner, .lyvra-method-inner, .lyvra-about-intro, .lyvra-cta-inner { grid-template-columns: 1fr; }
   .lyvra-s-pain { grid-template-columns: 1fr; }
@@ -527,6 +533,7 @@ body.hov #lyvra-cd { transform: scale(1.3); }
   }
   .lyvra-hero-ctas { flex-direction: column; align-items: center; gap: 1rem; }
   .lyvra-hero-ctas .lyvra-btn-primary { font-size: .8rem; letter-spacing: .05em; padding: .8rem 1.2rem; white-space: nowrap; }
+  .lyvra-contact-cta-btn { font-size: .72rem !important; letter-spacing: .04em !important; padding: .9rem 1.2rem !important; gap: .4rem !important; white-space: nowrap; }
 }
 
 @media (max-width: 560px) {

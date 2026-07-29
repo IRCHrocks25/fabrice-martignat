@@ -52,6 +52,7 @@ export function LyvraContact() {
 
         <a
           href="#"
+          className="lyvra-contact-cta-btn"
           style={{
             display: "inline-flex",
             alignItems: "center",
