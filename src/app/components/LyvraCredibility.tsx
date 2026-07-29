@@ -95,12 +95,13 @@ export function LyvraCredibility() {
           </p>
 
           {/* Mini stat row */}
-          <div style={{ display: "flex", gap: "0", borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: "2rem" }}>
+          <div className="lyvra-cred-stats-row" style={{ display: "flex", gap: "0", borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: "2rem" }}>
             {stats.map((s, i) => (
               <div
                 key={i}
                 style={{
                   flex: 1,
+                  minWidth: 0,
                   paddingRight: "1.5rem",
                   borderRight: i < stats.length - 1 ? "1px solid rgba(255,255,255,0.1)" : "none",
                   paddingLeft: i > 0 ? "1.5rem" : 0,
@@ -109,7 +110,7 @@ export function LyvraCredibility() {
                 <div style={{ fontSize: "clamp(1.4rem, 2.5vw, 2rem)", fontWeight: 800, color: "var(--white)", letterSpacing: "-.02em", lineHeight: 1 }}>
                   {s.n}
                 </div>
-                <div style={{ fontSize: "1rem", fontWeight: 600, letterSpacing: ".08em", textTransform: "uppercase", color: "var(--red)", marginTop: ".35rem" }}>
+                <div style={{ fontSize: "1rem", fontWeight: 600, letterSpacing: ".08em", textTransform: "uppercase", color: "var(--red)", marginTop: ".35rem", overflowWrap: "break-word" }}>
                   {s.label}
                 </div>
               </div>
