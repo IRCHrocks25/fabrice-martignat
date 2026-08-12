@@ -116,7 +116,7 @@ export function LyvraAbout() {
             The AI Decision Gate is open.{" "}
             <span>The first step is a conversation.</span>
           </p>
-          <a href="#lead" className="lyvra-acs-btn">
+          <a href="https://fabricemartignat.com/5-ai-questions" target="_blank" rel="noopener noreferrer" className="lyvra-acs-btn">
             Download the Executive Briefing →
           </a>
         </div>

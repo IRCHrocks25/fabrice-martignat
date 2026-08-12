@@ -80,7 +80,7 @@ export function LyvraPainPoints() {
           </p>
         </div>
 
-        <a href="#service" className="lyvra-pain-cta rv d4">
+        <a href="https://calendly.com/fabrice-fabricemartignat" target="_blank" rel="noopener noreferrer" className="lyvra-pain-cta rv d4">
           Begin the AI Decision Gate
         </a>
       </div>

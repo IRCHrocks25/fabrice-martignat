@@ -47,7 +47,7 @@ export function LyvraNav() {
         <ul className="lyvra-nav-links">
           {navLinks.map(l => <li key={l.href}><a href={l.href}>{l.label}</a></li>)}
         </ul>
-        <a href="#contact" className="lyvra-nav-cta lyvra-nav-cta--desktop">
+        <a href="https://calendly.com/fabrice-fabricemartignat" target="_blank" rel="noopener noreferrer" className="lyvra-nav-cta lyvra-nav-cta--desktop">
           Book a 30-min Call
         </a>
         {/* Hamburger */}
@@ -70,7 +70,7 @@ export function LyvraNav() {
             </li>
           ))}
         </ul>
-        <a href="#contact" className="lyvra-mobile-cta" onClick={close}>
+        <a href="https://calendly.com/fabrice-fabricemartignat" target="_blank" rel="noopener noreferrer" className="lyvra-mobile-cta" onClick={close}>
           Book a 30-min Call
         </a>
       </div>

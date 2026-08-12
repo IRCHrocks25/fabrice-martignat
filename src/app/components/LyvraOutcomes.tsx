@@ -180,7 +180,9 @@ export function LyvraOutcomes() {
               For most firms, the AI Decision Gate pays for itself if it prevents just one mis-timed AI project, and structured AI projects fail at a rate that makes that outcome more likely than not.
             </p>
             <a
-              href="#contact"
+              href="https://calendly.com/fabrice-fabricemartignat"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 display: "inline-flex",
                 alignItems: "center",

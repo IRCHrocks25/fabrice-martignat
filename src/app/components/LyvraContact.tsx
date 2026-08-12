@@ -51,7 +51,9 @@ export function LyvraContact() {
         </p>
 
         <a
-          href="#"
+          href="https://calendly.com/fabrice-fabricemartignat"
+          target="_blank"
+          rel="noopener noreferrer"
           className="lyvra-contact-cta-btn"
           style={{
             display: "inline-flex",

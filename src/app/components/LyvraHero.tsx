@@ -111,10 +111,10 @@ export function LyvraHero() {
 
         {/* CTAs */}
         <div className="lyvra-hero-ctas">
-          <a href="#contact" className="lyvra-btn-primary">
+          <a href="https://calendly.com/fabrice-fabricemartignat" target="_blank" rel="noopener noreferrer" className="lyvra-btn-primary">
             Book a 30-minute exploratory call
           </a>
-          <a href="#lead" className="lyvra-btn-secondary" style={{ color: "var(--white)", borderBottom: "1px solid rgba(255,255,255,0.5)", paddingBottom: "2px", textDecoration: "none", fontSize: "1rem" }}>
+          <a href="https://fabricemartignat.com/5-ai-questions" target="_blank" rel="noopener noreferrer" className="lyvra-btn-secondary" style={{ color: "var(--white)", borderBottom: "1px solid rgba(255,255,255,0.5)", paddingBottom: "2px", textDecoration: "none", fontSize: "1rem" }}>
             Download the 2026 AI Readiness Briefing
           </a>
         </div>

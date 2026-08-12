@@ -160,7 +160,9 @@ export function LyvraServices() {
           </p>
         </div>
         <a
-          href="#contact"
+          href="https://calendly.com/fabrice-fabricemartignat"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
             fontSize: "1rem",
             fontWeight: 600,
@@ -424,7 +426,9 @@ export function LyvraServices() {
             ))}
           </ul>
           <a
-            href="#contact"
+            href="https://calendly.com/fabrice-fabricemartignat"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               display: "inline-flex",
               alignItems: "center",
