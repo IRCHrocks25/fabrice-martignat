@@ -1,5 +1,5 @@
 import { useState } from "react";
-import painImage from "figma:asset/d3d6adcf8ec5d05dbf554db5386c905f074e8be5.png";
+import painImage from "figma:asset/d3d6adcf8ec5d05dbf554db5386c905f074e8be5.webp";
 
 const pains = [
   {

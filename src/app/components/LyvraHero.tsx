@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import img0 from "../../imports/image.png";
-import img1 from "../../imports/image-1.png";
-import img2 from "../../imports/image-2.png";
+import img0 from "../../imports/image.webp";
+import img1 from "../../imports/image-1.webp";
+import img2 from "../../imports/image-2.webp";
 
 const slides = [img0, img1, img2];
 

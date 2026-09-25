@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import credImg from "../../imports/image-10.png";
+import credImg from "../../imports/image-10.webp";
 
 function useReveal(threshold = 0.08) {
   const ref = useRef<HTMLDivElement>(null);

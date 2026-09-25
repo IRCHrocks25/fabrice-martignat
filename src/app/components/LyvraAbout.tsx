@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import peterImg from "../../imports/Frame_2.png";
+import peterImg from "../../imports/Frame_2.webp";
 
 function useReveal(delay = 0) {
   const ref = useRef<HTMLDivElement>(null);

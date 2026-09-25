@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import svcImg0 from "../../imports/Fabrice-mini-photoshoot-18.jpeg";
-import svcImg1 from "../../imports/image-8.png";
-import svcImg2 from "../../imports/image-9.png";
-import svcImg3 from "../../imports/image-10.png";
+import svcImg0 from "../../imports/Fabrice-mini-photoshoot-18.webp";
+import svcImg1 from "../../imports/image-8.webp";
+import svcImg2 from "../../imports/image-9.webp";
+import svcImg3 from "../../imports/image-10.webp";
 
 function useReveal(delay = 0) {
   const ref = useRef<HTMLDivElement>(null);

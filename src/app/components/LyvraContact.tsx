@@ -1,4 +1,4 @@
-import bgImg from "../../imports/Frame_3.png";
+import bgImg from "../../imports/Frame_3.webp";
 
 export function LyvraContact() {
   return (

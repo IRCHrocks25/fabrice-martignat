@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import testimonialsBg from "../../imports/image-13.png";
+import testimonialsBg from "../../imports/image-13.webp";
 
 function useReveal(delay = 0) {
   const ref = useRef<HTMLDivElement>(null);

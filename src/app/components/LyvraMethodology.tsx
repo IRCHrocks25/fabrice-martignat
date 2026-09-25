@@ -1,5 +1,5 @@
 import { useState } from "react";
-import methodImg from "../../imports/image-12.png";
+import methodImg from "../../imports/image-12.webp";
 import { Fingerprint, GitBranch, Lightbulb } from "lucide-react";
 
 const whatItems = [

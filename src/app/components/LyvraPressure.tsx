@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { AlertTriangle, Clock } from "lucide-react";
-import closingBg from "../../imports/image-11.png";
+import closingBg from "../../imports/image-11.webp";
 
 function useReveal(delay = 0) {
   const ref = useRef<HTMLDivElement>(null);

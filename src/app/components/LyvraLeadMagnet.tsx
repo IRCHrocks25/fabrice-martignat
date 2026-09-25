@@ -1,5 +1,5 @@
 import { useState } from "react";
-import bgImage from "../../imports/87ab624129e346abd0216453d067ced0_LE_upscale_prime.jpg";
+import bgImage from "../../imports/87ab624129e346abd0216453d067ced0_LE_upscale_prime.webp";
 
 const whatYouGet = [
   {
